@@ -1,0 +1,41 @@
+/* 
+	Note: Classes shall be strictly used for bootstrap. All other css styles shall be implemented using ids
+	
+	P.S. they also come in handy when we use jQuery and jQuery+AJAX
+*/
+body{
+	background:#ecf0f1;
+}
+#column1,#column2
+{
+	background:white;
+}
+#column1{
+	height:662px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+#messengerform{
+	width:100%;
+}
+
+/*This is the div with messages*/
+#messages{
+	background:white;
+	height:485px;
+	overflow:scroll;
+	overflow-x:hidden;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+#message
+{
+	width:100%;
+	height:70px;
+	margin-bottom:10px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+#sender,#reciever{
+	width:40%;
+}

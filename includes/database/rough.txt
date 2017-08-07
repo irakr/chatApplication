@@ -1,0 +1,11 @@
+if($connection){
+		echo 'Connected to database server...<br/>';
+		if($database){
+			echo 'Database Selected...<br/>';
+		}else{
+			echo 'Database was not found...<br/>';
+		}
+}else{
+	echo 'Unable to connect to Database Server...<br/>';
+	die("Connection Failed:".mysqli_connect_error());
+}
