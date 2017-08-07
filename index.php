@@ -1,6 +1,8 @@
 <?php
 	require('C:\xampp\htdocs\chatApplication\includes\messengercore.inc.php');
 ?>
+<!--https://github.com/Zim95/chatApplication.git-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
