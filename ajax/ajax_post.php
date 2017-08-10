@@ -1,6 +1,6 @@
 <?php
 	
-	require('C:\xampp\htdocs\chatApplication\includes\functions\messengerchat.func.php');
+	require($_SERVER["DOCUMENT_ROOT"] . '\chatApplication\includes\functions\messengerchat.func.php');
 	
 	/*the echoes in this page will output to this page and not in index.php.
 	
@@ -15,11 +15,7 @@
 	
 	/* This file is no longer named form_handling because of ajax. We won't need to redirect to index.php. We simply use ajax to set the innerhtml of the object*/
 	
-	if(!empty($_GET['sender']) && !empty($_GET['message']) && !empty($_GET['reciever'])){
-		
-		$sender = $_GET['sender'];
-		$message = $_GET['message'];
-		$reciever = $_GET['reciever'];
+	if(!empty($sender = $_GET['sender']) && !empty($message = $_GET['message']) && !empty($reciever = $_GET['reciever'])){
 		
 		if(send_msg($sender, $message, $reciever)){
 			echo 'Message Sent';

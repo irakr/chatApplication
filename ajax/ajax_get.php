@@ -1,5 +1,5 @@
 <?php
-	require('C:\xampp\htdocs\chatApplication\includes\functions\messengerchat.func.php');
+	require($_SERVER["DOCUMENT_ROOT"] . '\chatApplication\includes\functions\messengerchat.func.php');
 	
 	$msg = get_msg();
 	//change this for loop do not forget

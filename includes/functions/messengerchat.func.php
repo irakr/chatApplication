@@ -1,6 +1,6 @@
 <?php
 	
-	require ('C:\xampp\htdocs\chatApplication\includes\database\messengerconnect.db.php');
+	require ($_SERVER["DOCUMENT_ROOT"] . '\chatApplication\includes\database\messengerconnect.db.php');
 	
 	function get_msg(){
 		global $connection;

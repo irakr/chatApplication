@@ -1,5 +1,5 @@
 <?php
-	require('C:\xampp\htdocs\chatApplication\includes\messengercore.inc.php');
+	require($_SERVER["DOCUMENT_ROOT"] . '\chatApplication\includes\messengercore.inc.php');
 ?>
 <!--https://github.com/Zim95/chatApplication.git-->
 
